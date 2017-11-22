@@ -1,0 +1,40 @@
+.best {
+  background: url('../images/bg/best.png') center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.best__list {
+  display: flex;
+}
+
+.best__item {
+  margin: 0 15px;
+  flex: 1;
+}
+
+.best__title {
+  color: $dark_color;
+  margin-bottom: 90px;
+}
+
+.best__title-item {
+  font-size: 24px;
+  @include lifehack ();
+  color: $dark_color;
+}
+
+.best__pic {
+  height: 90px;
+}
+
+.svg__icon_best-meat {
+  fill: $orange_color;
+}
+.svg__icon_best-hand {
+  fill: $yellow_color;
+}
+
+.svg__icon_best-natural {
+  fill: $lime_color;
+}

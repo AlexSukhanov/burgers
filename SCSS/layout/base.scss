@@ -16,22 +16,6 @@ body, html {
   height: 100%;
 }
 
-.wrapper {
-  position: relative;
-  width: 100%;
-  min-width: 940px + 20px;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-.container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  max-width: 940px;
-  width: 95%;
-  margin: 0 auto;
-}
 
 .visuallyhidden:not(:focus):not(:active) {
   position: absolute;
@@ -76,10 +60,6 @@ p {
 
 footer {
   position: relative;
-  width: 100%;
+  //width: 100%;
 }
 
-.section {
-  height: 100vh;
-  min-height: 650px;
-}
