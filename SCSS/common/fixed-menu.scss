@@ -1,0 +1,36 @@
+.fixed__menu {
+  position: fixed;
+  top: 80px;
+  right: 45px;
+}
+
+.fixed-menu__item {
+  margin-bottom: 10px;
+
+  &.active {
+    .fixed-menu_link {
+      border-color: $white_color;
+    }
+  }
+}
+
+.fixed-menu_link {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid transparent;
+
+  &:hover {
+    border-color: #fff;
+  }
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    @include circle(6px, #fff);
+    @include absolute__center();
+  }
+}

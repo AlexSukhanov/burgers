@@ -1,0 +1,29 @@
+.order {
+  background: url("../images/bg/delivery_bg.jpg") center center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.section__title_order {
+  color: $yellow_color;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  font-size: 16px;
+  padding: 14px;
+  background: $white_color;
+  border: 0;
+  border-radius: 7px;
+  flex: 1;
+  margin-left: 20px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}

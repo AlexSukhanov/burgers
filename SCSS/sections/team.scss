@@ -27,11 +27,11 @@
 
 .team-acco_item {
 
-    &:active {
+    &.active {
 
-    .team-acco__content {
-      height: auto;
-    }
+      .team-acco__content {
+        height: auto;
+      }
 
       .team-acco__title {
         color: $yellow_color;
