@@ -301,6 +301,77 @@ footer {
 .svg__icon_best-natural {
   fill: #8ac03e; }
 
+.goods {
+  background: -moz-linear-gradient(top, #f9b43b 0%, #eb8d38 51%, #f9b43b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9b43b 0%, #eb8d38 51%, #f9b43b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9b43b), color-stop(51%, #eb8d38), to(#f9b43b));
+  background: -o-linear-gradient(top, #f9b43b 0%, #eb8d38 51%, #f9b43b 100%);
+  background: linear-gradient(to bottom, #f9b43b 0%, #eb8d38 51%, #f9b43b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: relative; }
+
+.goods__present {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.goods__img-pic {
+  padding-top: 15%; }
+
+.goods__text {
+  margin-left: 30px; }
+
+.goods__title {
+  color: #fff;
+  line-height: 1;
+  margin-bottom: 50px; }
+
+.goods__desc {
+  font-family: 'ubuntu', Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 30px; }
+
+.goods__price {
+  font-family: 'Gagalin-regular', Helvetica, sans-serif;
+  color: #e45028;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start; }
+  .goods__price .goods__price-summ {
+    font-size: 72px;
+    line-height: 1; }
+  .goods__price .goods__price-money {
+    font-size: 30px;
+    margin-left: 10px; }
+
+.arrow-scroll_left {
+  top: 50%;
+  left: 7%;
+  -webkit-transform: rotate(90deg) translateY(-50%);
+  -ms-transform: rotate(90deg) translateY(-50%);
+  transform: rotate(90deg) translateY(-50%); }
+
+.arrow-scroll_right {
+  top: 50%;
+  right: 7%;
+  -webkit-transform: rotate(270deg) translateY(-50%);
+  -ms-transform: rotate(270deg) translateY(-50%);
+  transform: rotate(270deg) translateY(-50%); }
+
 .team {
   background: url("../images/bg/team_bg.jpg") center center no-repeat;
   -webkit-background-size: cover;
@@ -567,3 +638,9 @@ footer {
 .svg__icon {
   width: 100%;
   height: 100%; }
+
+.arrow-scroll {
+  fill: #fff;
+  height: 30px;
+  width: 18px;
+  position: absolute; }

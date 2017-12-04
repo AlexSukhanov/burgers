@@ -1,0 +1,68 @@
+.goods {
+  background: -moz-linear-gradient(top, #f9b43b 0%, #eb8d38 51%, #f9b43b 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #f9b43b 0%,#eb8d38 51%,#f9b43b 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #f9b43b 0%,#eb8d38 51%,#f9b43b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  position: relative;
+}
+
+.goods__present {
+  display: flex;
+
+
+}
+
+.goods__img {
+
+}
+
+.goods__img-pic {
+  padding-top: 15%;
+}
+
+.goods__text {
+  margin-left: 30px;
+}
+
+.goods__title {
+  color: $white_color;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+
+.goods__desc {
+  @include ubuntu(light);
+  font-size: 14px;
+  color: $white_color;
+  margin-bottom: 30px;
+
+}
+
+.goods__price {
+  @include gagalin();
+  color: $orange_color;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  .goods__price-summ {
+    font-size: 72px;
+    line-height: 1;
+  }
+  .goods__price-money {
+    font-size: 30px;
+    margin-left: 10px;
+  }
+}
+
+
+
+.arrow-scroll_left {
+   top: 50%;
+   left: 7%;
+   transform: rotate(90deg) translateY(-50%);
+ }
+
+.arrow-scroll_right {
+  top: 50%;
+  right: 7%;
+  transform: rotate(270deg) translateY(-50%);
+}
